@@ -30,3 +30,6 @@ export function validateMyCode(value) {
     let reg = /^[a-z0-9]{6}$/
     return !reg.test(value) ? true : false
 }
+
+
+//没有用export default时，文件import需要{}，可以同时声明多个export

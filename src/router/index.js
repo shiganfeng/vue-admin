@@ -11,7 +11,7 @@ const routes = [{
         name: "Login",
         //要用箭头函数
         component: () =>
-            import ("../views/Login/index.vue")
+            import ("../views/Login/index2.0.vue")
     }
 ];
 
